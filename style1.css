@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    font-size: 25px;
+    color: blue;
+}
+
+li, a, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #089cb6;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: #089cb6;
+}
